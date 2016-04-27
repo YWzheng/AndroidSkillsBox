@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 
 import butterknife.ButterKnife;
@@ -53,8 +54,15 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    @OnClick(R.id.button)
-    public void onClick() {
-        startActivity(new Intent(this,RefreshLayoutSkill.class ));
+    @OnClick({R.id.button, R.id.button1})
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.button:
+                startActivity(new Intent(this, RefreshLayoutSkill.class));
+                break;
+            case R.id.button1:
+                startActivity(new Intent(this, RevealEffectActivity.class));
+                break;
+        }
     }
 }

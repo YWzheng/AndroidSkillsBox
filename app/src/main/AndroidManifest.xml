@@ -17,6 +17,8 @@
         </activity>
         <activity android:name=".RefreshLayoutSkill">
         </activity>
+        <activity android:name=".RevealEffectActivity">
+        </activity>
     </application>
 
 </manifest>

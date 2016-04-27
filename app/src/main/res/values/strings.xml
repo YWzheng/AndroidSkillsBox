@@ -2,4 +2,5 @@
     <string name="app_name">AndroidSkillsBox</string>
     <string name="action_github">github</string>
     <string name="text_button">RefLayout</string>
+    <string name="revealeffectbasic">RevealEffectBasic</string>
 </resources>
