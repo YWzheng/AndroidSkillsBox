@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidSkillsBox</string>
+    <string name="action_github">github</string>
+    <string name="text_button">RefLayout</string>
+</resources>
