@@ -3,4 +3,5 @@
     <string name="action_github">github</string>
     <string name="text_button">RefLayout</string>
     <string name="revealeffectbasic">RevealEffectBasic</string>
+    <string name="elevation">Elevation</string>
 </resources>

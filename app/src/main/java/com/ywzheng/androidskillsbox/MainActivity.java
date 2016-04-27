@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    @OnClick({R.id.button, R.id.button1})
+    @OnClick({R.id.button, R.id.button1,R.id.button2})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.button:
@@ -62,6 +62,11 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.button1:
                 startActivity(new Intent(this, RevealEffectActivity.class));
+                break;
+            case R.id.button2:
+                startActivity(new Intent(this, ElevationActivity.class));
+                break;
+            default:
                 break;
         }
     }

@@ -19,6 +19,8 @@
         </activity>
         <activity android:name=".RevealEffectActivity">
         </activity>
+        <activity android:name=".ElevationActivity">
+        </activity>
     </application>
 
 </manifest>
