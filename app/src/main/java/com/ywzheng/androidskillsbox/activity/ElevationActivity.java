@@ -1,10 +1,12 @@
-package com.ywzheng.androidskillsbox;
+package com.ywzheng.androidskillsbox.activity;
 
 import android.annotation.TargetApi;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+
+import com.ywzheng.androidskillsbox.R;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;

@@ -10,6 +10,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
+import com.ywzheng.androidskillsbox.activity.ElevationActivity;
+import com.ywzheng.androidskillsbox.activity.RefreshLayoutSkill;
+import com.ywzheng.androidskillsbox.activity.RevealEffectActivity;
+
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 import butterknife.OnClick;

@@ -1,4 +1,4 @@
-package com.ywzheng.androidskillsbox;
+package com.ywzheng.androidskillsbox.activity;
 
 import android.animation.Animator;
 import android.annotation.TargetApi;
@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.Button;
+
+import com.ywzheng.androidskillsbox.R;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;

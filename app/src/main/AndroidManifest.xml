@@ -15,11 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".RefreshLayoutSkill">
+        <activity android:name=".activity.RefreshLayoutSkill">
         </activity>
-        <activity android:name=".RevealEffectActivity">
+        <activity android:name=".activity.RevealEffectActivity">
         </activity>
-        <activity android:name=".ElevationActivity">
+        <activity android:name=".activity.ElevationActivity">
         </activity>
     </application>
 

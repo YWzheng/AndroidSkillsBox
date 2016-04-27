@@ -1,4 +1,4 @@
-package com.ywzheng.androidskillsbox;
+package com.ywzheng.androidskillsbox.data;
 
 import java.util.ArrayList;
 import java.util.HashSet;

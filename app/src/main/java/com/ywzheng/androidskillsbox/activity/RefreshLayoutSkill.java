@@ -1,4 +1,4 @@
-package com.ywzheng.androidskillsbox;
+package com.ywzheng.androidskillsbox.activity;
 
 import android.os.Bundle;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -10,8 +10,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.Timer;
-import java.util.TimerTask;
+import com.ywzheng.androidskillsbox.data.Cheeses;
+import com.ywzheng.androidskillsbox.R;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
