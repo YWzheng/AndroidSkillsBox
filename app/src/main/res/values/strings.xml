@@ -4,4 +4,15 @@
     <string name="text_button">RefLayout</string>
     <string name="revealeffectbasic">RevealEffectBasic</string>
     <string name="elevation">Elevation</string>
+    <string name="cardview">CardView</string>
+    <string name="cardview_radius_seekbar_text">radius</string>
+    <string name="cardview_elevation_seekbar_text">Elevation</string>
+
+    <string name="cardview_contents">This is a CardView widget. CardView widgets can have
+        shadows and rounded corners.
+        \n\nTo create a card with a shadow, use the <font fgcolor="#FFFFFFFF">android:elevation</font>
+        attribute.
+        \n\nTo set the corner radius in your layouts, use the <font
+            fgcolor="#FFFFFFFF">card_view:cardCornerRadius</font> attribute.
+    </string>
 </resources>

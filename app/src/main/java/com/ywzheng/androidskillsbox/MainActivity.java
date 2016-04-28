@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
+import com.ywzheng.androidskillsbox.activity.CardViewActivity;
 import com.ywzheng.androidskillsbox.activity.ElevationActivity;
 import com.ywzheng.androidskillsbox.activity.RefreshLayoutSkill;
 import com.ywzheng.androidskillsbox.activity.RevealEffectActivity;
@@ -58,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    @OnClick({R.id.button, R.id.button1,R.id.button2})
+    @OnClick({R.id.button, R.id.button1,R.id.button2,R.id.button3})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.button:
@@ -69,6 +70,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.button2:
                 startActivity(new Intent(this, ElevationActivity.class));
+                break;
+            case R.id.button3:
+                startActivity(new Intent(this, CardViewActivity.class));
                 break;
             default:
                 break;
