@@ -67,7 +67,7 @@ public class RefreshLayoutSkill extends AppCompatActivity {
 
         if (getSupportActionBar() == null) {
             mToolbar.setTitle("");
-            mToolbarTitle.setText("RefreshLayoutSkill");
+            mToolbarTitle.setText("RefreshLayout");
             setSupportActionBar(mToolbar);
         }
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

@@ -5,10 +5,12 @@ import android.annotation.TargetApi;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.view.animation.AccelerateDecelerateInterpolator;
-import android.widget.Button;
+import android.widget.TextView;
 
 import com.ywzheng.androidskillsbox.R;
 
@@ -20,12 +22,17 @@ public class RevealEffectActivity extends AppCompatActivity {
 
     @InjectView(R.id.circle)
     View mCircle;
+    @InjectView(R.id.toolbar)
+    Toolbar mToolbar;
+    @InjectView(R.id.toolbar_title)
+    TextView mToolbarTitle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reveal_effect);
         ButterKnife.inject(this);
+        initToolbar();
     }
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
@@ -47,5 +54,25 @@ public class RevealEffectActivity extends AppCompatActivity {
 
         // Finally start the animation
         animator.start();
+    }
+
+    private void initToolbar() {
+
+        if (getSupportActionBar() == null) {
+            mToolbar.setTitle("");
+            mToolbarTitle.setText("RevealEffect");
+            setSupportActionBar(mToolbar);
+        }
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
